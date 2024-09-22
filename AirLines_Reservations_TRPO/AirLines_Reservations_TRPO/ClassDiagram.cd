@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AirLines_Reservations_TRPO.Admin_create_flight">
+    <Position X="10.75" Y="3.5" Width="2" />
+    <Members>
+      <Field Name="add_flight" Hidden="true" />
+      <Field Name="bis_cost" Hidden="true" />
+      <Field Name="bis_count" Hidden="true" />
+      <Field Name="cancel_flight" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="date" Hidden="true" />
+      <Field Name="date_time" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="eco_cost" Hidden="true" />
+      <Field Name="eco_count" Hidden="true" />
+      <Field Name="flight_id" Hidden="true" />
+      <Field Name="fly_time" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="punkt_naz" Hidden="true" />
+      <Field Name="punkt_otpr" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ESOUEChAKqyAEBQEEAGSJIgnBAQAAIiJggkAjSQIAAA=</HashCode>
+      <FileName>Admin_create_flight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirLines_Reservations_TRPO.Admin_edit_flight">
+    <Position X="7.5" Y="3.5" Width="2" />
+    <Members>
+      <Field Name="accept_button" Hidden="true" />
+      <Field Name="avg_bis_count" Hidden="true" />
+      <Field Name="avg_eco_count" Hidden="true" />
+      <Field Name="bis_cost" Hidden="true" />
+      <Field Name="cancel_button" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="date" Hidden="true" />
+      <Field Name="date_time" Hidden="true" />
+      <Field Name="delete_flight" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="eco_cost" Hidden="true" />
+      <Field Name="flight_id" Hidden="true" />
+      <Field Name="fly_time" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label10" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="punkt_naz" Hidden="true" />
+      <Field Name="punkt_otpr" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ESCFECCAKCyAmBAIAACAIAgzAARIgIiMAAAQkSQAAwA=</HashCode>
+      <FileName>Admin_edit_flight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirLines_Reservations_TRPO.Admin_flights_list">
+    <Position X="7.25" Y="12" Width="2.25" />
+    <Members>
+      <Field Name="All_flights" Hidden="true" />
+      <Field Name="Back" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAACgAAAAAAAGAAAACAAQAAAAIACAAQAAAACg=</HashCode>
+      <FileName>Admin_flights_list.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Admin_edit_flight" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AirLines_Reservations_TRPO.Admin_login_form">
+    <Position X="14.5" Y="6.5" Width="2" />
+    <Members>
+      <Field Name="adm_name" Hidden="true" />
+      <Field Name="adm_password" Hidden="true" />
+      <Field Name="Back" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="Login_but" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gQEAAAAAgCAAABAAAAKAAAQCAAQAAAAIAAIgAQAAAQA=</HashCode>
+      <FileName>Admin_login_form.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Admin_main_form" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AirLines_Reservations_TRPO.Admin_main_form">
+    <Position X="14.5" Y="9.75" Width="1.75" />
+    <Members>
+      <Field Name="Add_flight" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="Edit_flight" Hidden="true" />
+      <Field Name="Exit" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAEAiAAIACQAQAgACEIAAAAAAAAAA=</HashCode>
+      <FileName>Admin_main_form.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Admin_create_flight" />
+      <Property Name="Admin_flights_list" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AirLines_Reservations_TRPO.Pass_flight_information">
+    <Position X="23" Y="10" Width="2" />
+    <Members>
+      <Field Name="Bis_choosen" Hidden="true" />
+      <Field Name="Bis_cost" Hidden="true" />
+      <Field Name="Bis_minus" Hidden="true" />
+      <Field Name="Bis_plus" Hidden="true" />
+      <Field Name="Bis_seats_left" Hidden="true" />
+      <Field Name="Cancel_reserve" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="Date_flight" Hidden="true" />
+      <Field Name="Date_time_flight" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="Done_reserve" Hidden="true" />
+      <Field Name="Eco_choosen" Hidden="true" />
+      <Field Name="Eco_cost" Hidden="true" />
+      <Field Name="Eco_minus" Hidden="true" />
+      <Field Name="Eco_plus" Hidden="true" />
+      <Field Name="Eco_seats_left" Hidden="true" />
+      <Field Name="Fly_time_flight" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="Punkt_naz" Hidden="true" />
+      <Field Name="Punkt_otpr" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EBgIABgAACAAABAAAACEAEAChFcICAAACgEAYAAAgIA=</HashCode>
+      <FileName>Pass_flight_information.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirLines_Reservations_TRPO.Pass_login_form">
+    <Position X="18.25" Y="6.5" Width="2" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="Go_adm" Hidden="true" />
+      <Field Name="Go_Reg" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="Login_but" Hidden="true" />
+      <Field Name="login_name" Hidden="true" />
+      <Field Name="login_password" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+    </Members>
+    <AssociationLine Name="Admin_login_form" Type="AirLines_Reservations_TRPO.Admin_login_form">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.221" Y="0.079" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAIBAgCgQAJAAAgCAACACAAUAAAIAAAYAAwAEAAA=</HashCode>
+      <FileName>Pass_login_form.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Admin_login_form" />
+      <Property Name="Registration_form" />
+      <Property Name="Pass_main_form" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AirLines_Reservations_TRPO.Pass_main_form">
+    <Position X="21.75" Y="6.5" Width="2.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="Exit_button" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="my_reserve" Hidden="true" />
+      <Field Name="my_reserve_grid" Hidden="true" />
+      <Field Name="pass_flights" Hidden="true" />
+      <Field Name="reserve" Hidden="true" />
+      <Field Name="tabControl1" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+      <Field Name="tableLayoutPanel3" Hidden="true" />
+    </Members>
+    <AssociationLine Name="Pass_flight_information" Type="AirLines_Reservations_TRPO.Pass_flight_information">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.328" Y="0.243" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Pass_reserved_flight" Type="AirLines_Reservations_TRPO.Pass_reserved_flight">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.096" Y="0.271" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AABAIAAQACIAAAAQAACABAECBAQAAAIAgAIAQACARCg=</HashCode>
+      <FileName>Pass_main_form.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Pass_reserved_flight" />
+      <Property Name="Pass_flight_information" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="AirLines_Reservations_TRPO.Pass_reserved_flight">
+    <Position X="20.75" Y="10" Width="2" />
+    <Members>
+      <Field Name="Bis_choosen" Hidden="true" />
+      <Field Name="Bis_cost" Hidden="true" />
+      <Field Name="Bis_minus" Hidden="true" />
+      <Field Name="Bis_plus" Hidden="true" />
+      <Field Name="Bis_seats_left" Hidden="true" />
+      <Field Name="Cancel" Hidden="true" />
+      <Field Name="Cancel_reserve" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="Date_flight" Hidden="true" />
+      <Field Name="Date_time_flight" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="Done_reserve" Hidden="true" />
+      <Field Name="Eco_choosen" Hidden="true" />
+      <Field Name="Eco_cost" Hidden="true" />
+      <Field Name="Eco_minus" Hidden="true" />
+      <Field Name="Eco_plus" Hidden="true" />
+      <Field Name="Eco_seats_left" Hidden="true" />
+      <Field Name="Fly_time_flight" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="Punkt_naz" Hidden="true" />
+      <Field Name="Punkt_otpr" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EBgIARAAQCAAABAAAACEAEBCxFcICAAAAgEAYAAAgoA=</HashCode>
+      <FileName>Pass_reserved_flight.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AirLines_Reservations_TRPO.Registration_form">
+    <Position X="18.25" Y="3.75" Width="1.75" />
+    <Members>
+      <Field Name="Back" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="panel1" Hidden="true" />
+      <Field Name="Reg_but" Hidden="true" />
+      <Field Name="reg_name" Hidden="true" />
+      <Field Name="reg_password" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AwAAAAAAACAAABAAAACAAAACAAQAAAAIAAAAEUAAAAE=</HashCode>
+      <FileName>Registration_form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
